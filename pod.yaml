@@ -1,2 +1,8 @@
-apiversion:v1
-kind:Pod
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nishanth
+spec:
+  containers:
+    - name: itkannadigaru-container
+      image: nginx
